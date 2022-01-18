@@ -78,38 +78,39 @@ select {
 }
 /* /////////////////////////////////////////////////////////////////////////////////// */
 body {
-    text-align: center;
-    color: #000;
-    background-image: url(images/img1.png);
-    background-repeat: no-repeat;
+  text-align: center;
+  color: #000;
+  background-image: url(images/background-view.png);
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
 }
 .start_view_wrapper {
-    width: 100%;
-    height: 670px;
-    background-image: url(images/img2.png);
-    font-weight: 800;
-    font-family: 'Roboto', sans-serif;
-    color: #ffffff;
+  width: 100%;
+  height: 670px;
+  background-image: url(images/background-view-color.png);
+  font-weight: 800;
+  color: #ffffff;
 }
 header {
   padding: 36px;
-    display: flex;
-   justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 button {
-    background-color: Transparent;
-    cursor:pointer;
-    width: 120px;
-    height: 40px;
-    padding: 13px,15px;
-    border: 2px solid #438cb9;
-    font-weight: bold;
-    color: #438cb9;
-    margin: 30px;
+  background-color: Transparent;
+  cursor:pointer;
+  width: 120px;
+  height: 40px;
+  font-family: 'Hammersmith One', sans-serif;
+  padding: 13px,15px;
+  border: 2px solid #438cb9;
+  font-weight: 400;
+  color: #438cb9;
+  margin: 30px 0px 30px 0px;  
 }
 button:hover {
-    border: 2px solid aquamarine;
-    color: aquamarine;
+  border: 2px solid aquamarine;
+  color: aquamarine;
 }
 nav{ 
   text-transform: uppercase;
@@ -119,47 +120,82 @@ nav{
   color: #438cb9;
 }
 .text_logo_big {
-    font-size: 30px;
-    font-weight: 200;
+  font-size: 30px;
+  font-weight: 200;
 }
 .logo_img {
-    height: 50px;
-    width: 50px;
-    background-image: url(images/img3.png);
-    background-repeat: no-repeat;  
+  height: 50px;
+  width: 50px;
+  background-image: url(images/logo.png);
+  background-repeat: no-repeat;  
 }
 .navigation {
-    font-size: 13px;
-    color: #ffffff;
-    height: 36px;
-    text-decoration:none ;
-    margin-left: 13px;
-    margin-right: 13px;
+  font-size: 13px;
+  color: #ffffff;
+  height: 36px;
+  text-decoration:none ;
+  margin-left: 13px;
+  margin-right: 13px;
 }
 .navigation:hover {
-    color: aquamarine;
+  color: aquamarine;
 }
 .link_home {
-   color: #149ca3;
+  color: #149ca3;
 }
 .header_title {
-    font-size: 32px;
+  font-family: "Playfair Display";
+  font-size: 32px;
 }
 .line_title {
-    margin: 30px;
-    width: 50px;
-    border-top: 2px solid #149ca3;
+  margin: 30px;
+  width: 50px;
+  border-top: 2px solid #149ca3;
 }
 .content_text{
-    margin: 30px;
-   font-size: 14px;
-   width: 725px;
-   line-height: 24px;
-   font-weight: 400;
+  margin: 30px;
+  font-size: 14px;
+  width: 725px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-weight: 300;
 }
 .content_block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px; 
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+.about_wrapper {
+  background-color: #ffffff;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 320px 70px 320px;
+ 
+}
+.logo_information { 
+  background-image: url(images/Replace\ with\ your\ logo.png);
+  width: 235px;
+  height: 235px;
+  background-repeat: no-repeat;  
+  margin: auto;
+}
+.information_company {
+  width: 540px;
+  text-align: left;
+}
+.title_info {
+  font-weight: bold;
+  font-size: 22px;
+  font-family: 'Playfair Display', serif;
+}
+.info_text {
+  font-size: 14px;
+  margin-top: 30px;
+  line-height: 22px;
+  color: #413d4b;
+  font-weight: 300;
 }
